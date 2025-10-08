@@ -36,7 +36,7 @@ if (isset($_GET['value'], $_GET['from'], $_GET['to'])){
                 $converted = $km_value * 1000;
                 break;
         }
-        $result = "<p><strong>Result:</strong> " . htmlspecialchars($value) . " $from = <strong>" . round($converted, 2) . " $to</strong></p>";
+        $result = "<p><strong>Result:</strong> " . htmlspecialchars($value) . " $from = <strong>" . round($converted, 2) . " $to .</strong></p>";
     }
 }
 
